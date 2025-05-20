@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Кафе Мадагаскар - Меню</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fefefe;
+      color: #333;
+    }
+    header {
+      background-color: #2d2d2d;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .description {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+    }
+    .menu-section {
+      padding: 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #444;
+      border-bottom: 2px solid #e0a96d;
+      padding-bottom: 0.5rem;
+      margin-top: 2rem;
+    }
+    .dish {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .dish img {
+      width: 120px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .dish-info {
+      flex: 1;
+    }
+    .dish-name {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    .dish-price {
+      color: #e07a5f;
+    }
+    @media (max-width: 600px) {
+      .dish {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .dish img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Кафе "Мадагаскар"</h1>
+    <p class="description">
+      Уличное кафе с уютной атмосферой и блюдами на мангале. Готовим на открытом огне: мясо, овощи, салаты и супы. Вкус, свежесть и тепло — каждый день!
+    </p>
+  </header>
+
+  <div class="menu-section">
+    <h2>Салаты</h2>
+
+    <div class="dish">
+      <img src="https://via.placeholder.com/120x90?text=Цезарь+курица" alt="Цезарь с курицей">
+      <div class="dish-info">
+        <div class="dish-name">Цезарь с курицей (260 г)</div>
+        <div class="dish-price">440 р</div>
+      </div>
+    </div>
+
+    <div class="dish">
+      <img src="https://via.placeholder.com/120x90?text=Цезарь+креветка" alt="Цезарь с креветкой">
+      <div class="dish-info">
+        <div class="dish-name">Цезарь с креветкой (260 г)</div>
+        <div class="dish-price">490 р</div>
+      </div>
+    </div>
+
+    <div class="dish">
+      <img src="https://via.placeholder.com/120x90?text=Греческий" alt="Греческий салат">
+      <div class="dish-info">
+        <div class="dish-name">Греческий (260 г)</div>
+        <div class="dish-price">420 р</div>
+      </div>
+    </div>
+
+    <div class="dish">
+      <img src="https://via.placeholder.com/120x90?text=Чука" alt="Чука с морепродуктами">
+      <div class="dish-info">
+        <div class="dish-name">Чука с морепродуктами (260 г)</div>
+        <div class="dish-price">595 р</div>
+      </div>
+    </div>
+
+    <h2>Первые блюда</h2>
+
+    <div class="dish">
+      <img src="https://via.placeholder.com/120x90?text=Суп+куриный" alt="Куриный суп с лапшой">
+      <div class="dish-info">
+        <div class="dish-name">Куриный суп с лапшой (300 г)</div>
+        <div class="dish-price">240 р</div>
+      </div>
+    </div>
+
+    <div class="dish">
+      <img src="https://via.placeholder.com/120x90?text=Крем-суп" alt="Крем-суп из шампиньонов">
+      <div class="dish-info">
+        <div class="dish-name">Крем-суп из шампиньонов (270 г)</div>
+        <div class="dish-price">370 р</div>
+      </div>
+    </div>
+
+    <div class="dish">
+      <img src="https://via.placeholder.com/120x90?text=Окрошка" alt="Окрошка">
+      <div class="dish-info">
+        <div class="dish-name">Окрошка (300 г)</div>
+        <div class="dish-price">240 р</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
